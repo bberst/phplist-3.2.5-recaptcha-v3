@@ -109,3 +109,9 @@ $bounce_unsubscribe_threshold = 5;
 # check the extended config for more info
 # in most cases, it is fine to leave this as it is
 define('ENCRYPTION_ALGO', 'sha256');
+
+# Google reCAPTCHA v3 settings
+define('RECAPTCHA_SITE_KEY', '');
+define('RECAPTCHA_SECRET_KEY', '');
+define('RECAPTCHA_THRESHOLD', 0.5);
+define('RECAPTCHA_LOG', 1);
